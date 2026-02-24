@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ker’s Car</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        .container {
+            width: 1200px;
+            max-width: 95%;
+            margin: 30px auto;
+        }
+
+        .car-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .car-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .car-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .car-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .price {
+            color: #008000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ker’s Car</h1>
+</header>
+
+<nav>
+    <a href="home.html">HOME</a>
+</nav>
+
+<div class="container">
+    <div class="car-grid">
+
+        <div class="car-card">
+            <img src="images/taycan1.png" alt="Taycan">
+            <h3>Taycan</h3>
+            <p class="price">₱7,000,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/carrera.avif" alt="Carrera">
+            <h3>Carrera</h3>
+            <p class="price">₱16,000,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/cayman2.webp" alt="Cayman">
+            <h3>Cayman</h3>
+            <p class="price">₱6,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/panamera2.webp" alt="Panamera">
+            <h3>Panamera</h3>
+            <p class="price">₱13,000,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/boxster.avif" alt="Boxster">
+            <h3>Boxster</h3>
+            <p class="price">₱3,488,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images7.avif" alt="Porsche 356">
+            <h3>Porsche 356</h3>
+            <p class="price">₱6,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images8.webp" alt="Porsche 912">
+            <h3>Porsche 912</h3>
+            <p class="price">₱6,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images9.webp" alt="Porsche 914">
+            <h3>Porsche 914</h3>
+            <p class="price">₱6,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images10.webp" alt="Porsche 924">
+            <h3>Porsche 924</h3>
+            <p class="price">₱6,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images11.jpg" alt="Porsche 944">
+            <h3>Porsche 944</h3>
+            <p class="price">₱7,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images12.avif" alt="Porsche 928">
+            <h3>Porsche 928</h3>
+            <p class="price">₱5,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images13.webp" alt="Porsche 928">
+            <h3>Ferrari</h3>
+            <p class="price">₱50,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images14.webp" alt="Porsche 928">
+            <h3>Buggati</h3>
+            <p class="price">₱50,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images15.jpg" alt="Porsche 928">
+            <h3>Lamborgini</h3>
+            <p class="price">₱45,500,000.00</p>
+        </div>
+
+        <div class="car-card">
+            <img src="images/images16.jpg " alt="Porsche 928">
+            <h3>Rolls Royce</h3>
+            <p class="price">₱50,500,000.00</p>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>
